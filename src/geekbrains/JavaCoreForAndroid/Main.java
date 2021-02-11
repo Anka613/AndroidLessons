@@ -30,5 +30,17 @@ public class Main {
                 System.out.println(employee.toString());
             }
         }
+
+
+        Animal dogBobik = new Dog("Бобик");
+        Animal dogPeaky = new Dog("Пики");
+        dogBobik.run(700);
+        dogBobik.swim(5);
+        dogPeaky.run(300);
+        dogPeaky.swim(15);
+
+        Animal catPinch = new Cat("Пинч");
+        catPinch.swim(22);
+        catPinch.run(22);
     }
 }
