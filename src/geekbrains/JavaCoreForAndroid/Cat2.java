@@ -1,7 +1,7 @@
 package geekbrains.JavaCoreForAndroid;
 
-public class Cat extends Animal{
-    public Cat(String name) {
+public class Cat2 extends Animal{
+    public Cat2(String name) {
         super(name);
     }
 
